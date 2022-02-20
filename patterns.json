@@ -1,0 +1,37 @@
+{
+    "patterns": {
+        "A": {
+            "IPHONE_PATTERN": [[
+                {"TEXT": "iPhone"},
+                {"TEXT": "X"}
+            ]],
+            "FIFA": [[
+                {"IS_DIGIT": true},
+                {"LOWER": "fifa"},
+                {"LOWER": "world"},
+                {"LOWER": "cup"},
+                {"IS_PUNCT": true}
+            ]],
+            "LOVE": [[
+                {"LEMMA": "love", "POS": "VERB"},
+                {"POS": "NOUN"}
+            ]],
+            "BUY": [[
+                {"LEMMA": "buy"},
+                {"POS": "DET", "OP": "?"},
+                {"POS": "NOUN"}
+            ]]
+        },
+
+        "B": {
+            "LOVE_CATS": [[
+                {"LEMMA": "love", "POS": "VERB"},
+                {"LOWER": "cats"}
+            ]],
+            "VERY_HAPPY": [[
+                {"TEXT": "very", "OP": "+"},
+                {"TEXT": "happy"}
+            ]]
+        }
+    }
+}
