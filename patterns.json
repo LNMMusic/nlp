@@ -32,6 +32,15 @@
                 {"TEXT": "very", "OP": "+"},
                 {"TEXT": "happy"}
             ]]
+        },
+
+        "C": {
+            "ANIMAL": [
+                "Golden Retriever",
+                "cat",
+                "turtle",
+                "Rattus norvegicus"
+            ]
         }
     }
 }
